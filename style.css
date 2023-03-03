@@ -6,7 +6,6 @@ body {
 }
 
 .section-one {
-
     background-color:#1f2937;
     height: 100vh;
     max-height: 600px;
@@ -17,16 +16,9 @@ body {
     overflow: auto;
 }
 
-.section-two {
-    align-self: center;
-
-}
-
 .header {
-
     margin-left: 15%;
     margin-right:15%;
-
     max-width: 90%;
 
     display: flex;
@@ -36,18 +28,14 @@ body {
 }
 
 .header h1 {
-
     font-size: 24px;
     color:#f9faf8;
 }
 
 .menu-bar ul {
-
     list-style-type: none;
     display: flex;
     gap: 40px;
-
-
 }
 
 .menu-bar a {
@@ -60,45 +48,27 @@ body {
 .content {
     margin-left: 15%;
     margin-right:15%;
-    max-height: 40%;
+    height: 300px;
+    max-height: 60%;
     display:flex;
-    justify-content: space-between;
-    align-items: stretch;
+    justify-content:center;
 }
 
 .content h2 {
-
     margin-top: 0px;
     font-size: 48px;
     font-weight: 800;
     color:#f9faf8;
-
     max-width: 60%;
-
-    flex-shrink: 1;
-
 }
 
 .content p {
-
     max-width: 70%;
     font-size: 18px;
     color:#e5e7eb;
     margin-top: -5%;
-
-    align-self: flex-start;
-
-    flex-shrink: 2;
 }
 
-
-
-.left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
 
 .content button {
     background-color:#3882f6;
@@ -113,12 +83,17 @@ body {
     padding-bottom: 8px;
 
     align-self: flex-start;
-
-    
 }
 
 
-.header-img {
-    width: 60vh;
-    height: 25vh;
-} 
+.content .header-img {
+    width: 70vh;
+    height: 30vh;
+}
+
+
+
+
+.section-two {
+    align-self: center;
+}
