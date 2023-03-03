@@ -9,7 +9,7 @@ body {
 
     background-color:#1f2937;
     height: 100vh;
-    max-height: 650px;
+    max-height: 600px;
     gap:20%;
 
     display:flex;
@@ -58,9 +58,9 @@ body {
 
 
 .content {
-
     margin-left: 15%;
     margin-right:15%;
+    max-height: 40%;
     display:flex;
     justify-content: space-between;
     align-items: stretch;
@@ -75,16 +75,20 @@ body {
 
     max-width: 60%;
 
+    flex-shrink: 1;
+
 }
 
 .content p {
 
-    max-width: 80%;
+    max-width: 70%;
     font-size: 18px;
     color:#e5e7eb;
     margin-top: -5%;
 
     align-self: flex-start;
+
+    flex-shrink: 2;
 }
 
 
@@ -115,5 +119,6 @@ body {
 
 
 .header-img {
-    max-width: 60vh;
+    width: 60vh;
+    height: 25vh;
 } 
