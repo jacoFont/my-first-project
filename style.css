@@ -45,7 +45,7 @@ body {
 }
 
 
-.content {
+.content-one {
     margin-left: 15%;
     margin-right:15%;
     height: 300px;
@@ -54,7 +54,7 @@ body {
     justify-content:center;
 }
 
-.content h2 {
+.content-one h2 {
     margin-top: 0px;
     font-size: 48px;
     font-weight: 800;
@@ -62,7 +62,7 @@ body {
     max-width: 60%;
 }
 
-.content p {
+.content-one p {
     max-width: 70%;
     font-size: 18px;
     color:#e5e7eb;
@@ -70,7 +70,7 @@ body {
 }
 
 
-.content button {
+.content-one button {
     background-color:#3882f6;
     color:white;
     text-align: center;
@@ -86,7 +86,7 @@ body {
 }
 
 
-.content .header-img {
+.content-one .header-img {
     width: 70vh;
     height: 30vh;
 }
@@ -95,5 +95,41 @@ body {
 
 
 .section-two {
-    align-self: center;
+    height: 100vh;
+    max-height: 550px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-two h3 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+
+    
+}
+
+.section-two .content-two {
+}
+
+.content-two {
+    display: flex;
+    height: 300px;
+
+}
+
+.element {
+    width: 250px;
+    height: 250px;
+    border:8px solid #3882f6;
+    border-radius: 20px;
+}
+
+.one .pic {
+    width: 250px;
+    height: 250px;
 }
