@@ -5,6 +5,8 @@ body {
     padding:0;
 }
 
+/* SECTION ONE */
+
 .section-one {
     background-color:#1f2937;
     height: 100vh;
@@ -92,7 +94,7 @@ body {
 }
 
 
-
+/* SECTION TWO */
 
 .section-two {
     height: 100vh;
@@ -136,4 +138,14 @@ body {
 .pic {
     width: 200px;
     height: 200px;
+}
+
+/* SECTION THREE */
+
+.section-three {
+    background-color: #e5e7eb;
+    height: 100vh;
+    max-height: 500px;
+
+
 }
