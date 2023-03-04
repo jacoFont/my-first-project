@@ -96,7 +96,7 @@ body {
 
 .section-two {
     height: 100vh;
-    max-height: 600px;
+    max-height: 650px;
 
     display: flex;
     flex-direction: column;
@@ -121,6 +121,8 @@ body {
     display: flex;
     gap:60px;
     height: 300px;
+    flex-wrap: wrap;
+
 
 }
 
