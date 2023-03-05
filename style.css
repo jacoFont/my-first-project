@@ -5,6 +5,11 @@ body {
     padding:0;
 }
 
+a {
+    text-decoration: none;
+    color:white;
+}
+
 /* SECTION ONE */
 
 .section-one {
@@ -41,7 +46,6 @@ body {
 }
 
 .menu-bar a {
-    text-decoration: none;
     font-size: 18px;
     color:#e5e7eb;
 }
@@ -128,6 +132,11 @@ body {
 
 }
 
+.content-two p {
+    color:black;
+}
+
+
 .element {
     width: 200px;
     height: 200px;
@@ -139,6 +148,7 @@ body {
     width: 200px;
     height: 200px;
 }
+
 
 /* SECTION THREE */
 
